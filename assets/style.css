@@ -5,6 +5,49 @@
     font-family: "Open Sans", serif;
 }
 
+@media (max-width:768px){
+    .heeader-main{
+        display: flex;
+        font-size: 30px;
+        
+    }
+    .collapse-button{
+        display: block !important;
+    }
+    .header-li{
+        display: none !important;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        font-size: 17px;
+    }
+    .main-bio{
+        width: 315px !important;
+        height: 189px !important;
+        align-items: center !important;
+    }
+    .my-info{
+        width: 315px !important;
+    }
+    .project-main{
+        flex-direction: column !important;
+    }
+    .footer-container{
+        width: 315px !important;
+        height: 355px !important;
+    }
+    .footer-text{
+        font-size: 17px;
+    }
+}
+.collapse-svg{
+    width: 25px;
+    height: 23px;
+}
+.collapse-button{
+    display: none;
+}
 .header-main {  
     display: flex;
     justify-content: space-between;
@@ -122,8 +165,29 @@ h3 {
 footer{
     display: flex;
 }
+.footer{
+    display: flex;
+    padding: 1% 8%;
+}
 .footer-text{
     color: #2D2D2D;
     font-weight: 400;
     font-size: 17px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 313px;
+    gap: 60px;
+}
+.footer-block1{
+    width: 360px;
+    height: 217px;
+    gap: 40px;
+}
+.footer-icons{
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
 }
